@@ -1,0 +1,10 @@
+.popup__input-proffesion {
+
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-bottom: 13px;
+    margin-bottom: 47px;
+}
