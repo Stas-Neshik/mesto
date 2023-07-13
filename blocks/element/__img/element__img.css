@@ -1,9 +1,0 @@
-.element__img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    border-radius: 10px 10px 0px 0px;
-    padding: 0;
-    margin: 0;
-    object-fit: cover;
-
-}
