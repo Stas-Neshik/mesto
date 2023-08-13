@@ -1,8 +1,0 @@
-.element__like-active {
-    opacity: 1;
-    background-image: url(../../../images/Union.svg);
-}
-
-.element__like-active:hover {
-    opacity: 1;
-}
