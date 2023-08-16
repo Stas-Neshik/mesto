@@ -1,0 +1,16 @@
+.popup {
+    box-sizing: border-box;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    top: 0;
+    right: 0;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    transition: linear .3s;
+    display: flex;
+    overflow-y: auto;
+    padding: 0px;
+}
