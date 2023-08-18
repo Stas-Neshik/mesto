@@ -1,0 +1,15 @@
+const popups = document.querySelectorAll('.popup'); // Основной класс попап.
+const popupProfile = document.querySelector('.popup_type_profile'); // Попап редактирования профиля.
+const popupCard = document.querySelector('.popup_type_card'); // Попап добавления карточки.
+const popupCloseBtns = document.querySelectorAll('.popup__close'); // кнопка закрыть (крест)
+const POPUP_ACTIVE_CLASSNAME = 'popup_opened';
+const profileName = document.querySelector('.profile__name');  // Имя на сайте.
+const jobName = document.querySelector('.profile__job'); // Проффесия на сайте.
+const place = document.querySelector('.element__text'); // Название места.
+const placeImg = document.querySelector('.element__img'); // Картинка места.
+const profileBtn = document.querySelector('.profile__button'); // Кнопка редактирование профиля.
+const elementBtn = document.querySelector('.profile__add-button'); // Кнопка добавления карточки.
+const formElementProfile = popupProfile.querySelector('.popup__form_profile'); // Форма попапа профиля,
+const nameInput = popupProfile.querySelector('#popup__name'); // поле ввода имени,
+const jobInput = popupProfile.querySelector('#popup__job'); // поле ввода проффессии,
+const cardTemplate = document.querySelector('#template-elements').content.querySelector('.element');
